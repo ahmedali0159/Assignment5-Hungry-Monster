@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 1000px;
+}
+#search-btn{
+    cursor: pointer;
+    outline: none;
+}
