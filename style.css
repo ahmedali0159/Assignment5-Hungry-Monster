@@ -23,9 +23,10 @@ body{
     justify-content: center;
 }
 .food-ingredient{
-    color: teal;
+    color: royalblue;
 
   }
   .food-ingredient li{
       list-style: none;
+      font-size: 15px;
   }

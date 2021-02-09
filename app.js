@@ -34,7 +34,7 @@ const displayItemDetails = food => {
   Ingredients.innerHTML = `
   <img style="width:300px; margin-bottom:20px;  border-radius:10px;" src="${food.strMealThumb}">
   <ul class ="food-ingredient">
-      <li><h3>Ingredient<h3></li>
+      <li><h3 style="text-decoration:underline;">Ingredient<h3></li>
       <li><p>${food.strIngredient1}</p></li>
       <li><p>${food.strIngredient2}</p></li>
       <li><p>${food.strIngredient3}</p></li>
@@ -45,7 +45,7 @@ const displayItemDetails = food => {
       <li><p>${food.strIngredient8}</p></li>
       <li><p>${food.strIngredient10}</p></li>
   <ul>  
-  `
+  `;
 } 
 
       
