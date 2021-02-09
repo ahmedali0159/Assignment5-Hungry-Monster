@@ -1,16 +1,31 @@
+body{
+    background: #ffa801;
+}
 #meals {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 5px;
 }
 .food{
-    border: 1px solid wheat;
-    box-shadow: 2px 1px gray ;
+    border: 1px solid khaki;
+    box-shadow: 2px 2px 2px gray ;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
     width: 300px;
+    margin-bottom: 20px;
 }    
 .food-strMeal{
     color: gray;
 }
+#mealsDetail{
+    display: flex;
+    justify-content: center;
+}
+.food-ingredient{
+    color: teal;
+
+  }
+  .food-ingredient li{
+      list-style: none;
+  }
