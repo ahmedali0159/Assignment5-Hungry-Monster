@@ -13,21 +13,18 @@
 </head>
 <body>
      <div class="container">
-         <h1>Food Monster</h1>
-         <form class="col-md-6 m-auto py-5">
-             <div class="input-group mb-3">
+         <div class="col-md-6 m-auto py-5">
+            <h1 class="text-center">Hungry Monster</h1>
+             <div class="input-group mb-3"> 
                  <input id="search" type="text"class="form-control fas fa-search"placeholder="Search For A Meal">
                  <div class="input-group-append">
-                     <button class="btn btn-primary" id="search-btn" type="button">Search</button>
+                     <button onclick="searchMeals()" class="btn btn-primary search-btn">Search</button>
                  </div>
              </div>
-         </form>
-     </div>  
-     
-     <div id="result-heading">
-         <div id="meals" class="meals"></div>
-         <div id="single-meal"></div>
-
+         </div>
+     </div>
+     <div id="mealsDetail"></div>  
+     <div id="meals" class="container"> 
      </div>
      <script src="app.js"></script>
 
